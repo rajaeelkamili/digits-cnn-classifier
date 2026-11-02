@@ -25,7 +25,7 @@ Un CNN simple à 2 couches convolutionnelles (16 puis 32 filtres) suivies de 2 c
 
 | Métrique | Score |
 |----------|-------|
-| Accuracy (test) | 0.969 |
+| Accuracy (test) | 0.964 (seed 42, varies by about 0.005 across PyTorch versions) |
 | Loss finale (train) | ~0.087 |
 
 ## Lancer le projet
