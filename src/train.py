@@ -15,6 +15,10 @@ from sklearn.datasets import load_digits
 from sklearn.model_selection import train_test_split
 import numpy as np
 
+SEED = 42  # résultats reproductibles d'un lancement à l'autre
+torch.manual_seed(SEED)
+np.random.seed(SEED)
+
 # 1. LES DONNEES
 # load_digits : 1797 images de chiffres, 8x8 pixels en niveaux de gris.
 # (Version compacte du célèbre dataset MNIST, mais intégrée à scikit-learn.)
